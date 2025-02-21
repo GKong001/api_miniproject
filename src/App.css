@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #f4e1b2; /* Soft orange background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #333; /* Darker text color for contrast */
+}
+
+.App-link {
+  color: #ffcc99; /* Soft orange link color */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.custom-navbar {
+  background: linear-gradient(90deg, #f4e1b2, #ffb347); /* Soft orange gradient */
+  padding: 10px 0;
+}
+
+.custom-navbar .nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 15px;
+  transition: 0.3s ease;
+  color: #ff6f20; /* Soft orange for the links */
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffcc00 !important; /* Hover effect with yellow-orange */
+}
+
+.btn-rounded {
+  border-radius: 25px;
+  font-weight: bold;
+  transition: 0.3s;
+  background-color: #ff6f20; /* Soft orange button color */
+  color: #fff;
+}
+
+.btn-rounded:hover {
+  background-color: #ffcc00 !important; /* Lighter orange on hover */
+  color: #000 !important;
+}
